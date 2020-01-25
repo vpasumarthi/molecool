@@ -7,10 +7,30 @@ Handles the primary measurements
 import numpy as np
 
 def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
-    d=(rA-rB)
-    dist=np.linalg.norm(d)
-    return dist
+    """
+    This function calculates the distance between two points given as numpy arrays.
+
+    Parameters
+    ----------
+    rA, rB : np.ndarray
+        coordiantes of each point
+
+    Returns
+    -------
+    distance : float
+        Distance value between the the two input coordinates
+
+    Examples
+    --------
+    >>> r1 = np.array([0, 0, 0])
+    >>> r2 = np.array([0, 0.1, 0])
+    >>> calculate_distance(r1, r2)
+    0.1
+    """
+
+    dist_vector = (rA - rB)
+    distance = np.linalg.norm(dist_vector)
+    return distance
 
 def calculate_angle(rA, rB, rC, degrees=False):
     # Calculate the angle between three points. Answer is given in radians by default, but can be given in degrees
