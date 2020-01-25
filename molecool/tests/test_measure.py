@@ -20,6 +20,16 @@ def test_calculate_distance():
     calculated_distance = molecool.calculate_distance(r1, r2)
     assert calculated_distance == expected_distance
 
+def test_calculate_distance_typeerror():
+    """test will pass so long as calling `calculate_distance` function within
+    `measure` module does not raise TypeError"""
+
+    r1 = [1, 0, 0]
+    r2 = [0, 0, 0]
+
+    with pytest.raises(TypeError):
+        calculated_distance = molecool.calculate_distance(r1, r2)
+
 def test_calculate_angle():
     """test will pass so long as `calculate_angle` function within `measure`
     module run as expected"""
