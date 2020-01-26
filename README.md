@@ -1,9 +1,9 @@
 molecool
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.com/REPLACE_WITH_OWNER_ACCOUNT/molecool.svg?branch=master)](https://travis-ci.com/REPLACE_WITH_OWNER_ACCOUNT/molecool)
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
+[![Travis Build Status](https://travis-ci.com/vpasumarthi/molecool.svg?branch=master)](https://travis-ci.com/vpasumarthi/molecool)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/vpasumarthi/molecool/branch/master)
+[![codecov](https://codecov.io/gh/vpasumarthi/molecool/branch/master/graph/badge.svg)](https://codecov.io/gh/vpasumarthi/molecool/branch/master)
 
 A python package for analyzing and visualizing xyz file. For Buffalo 2020 bootcamp.
 
