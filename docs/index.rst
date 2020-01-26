@@ -12,6 +12,7 @@ molecool is a Python package
    :caption: Contents:
 
    getting_started
+   about
    api
 
 
